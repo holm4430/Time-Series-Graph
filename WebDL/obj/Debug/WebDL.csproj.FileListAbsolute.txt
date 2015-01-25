@@ -1,0 +1,10 @@
+c:\users\kevin\documents\visual studio 2013\Projects\WebDL\WebDL\bin\Debug\WebDL.exe.config
+c:\users\kevin\documents\visual studio 2013\Projects\WebDL\WebDL\bin\Debug\WebDL.exe
+c:\users\kevin\documents\visual studio 2013\Projects\WebDL\WebDL\bin\Debug\WebDL.pdb
+c:\users\kevin\documents\visual studio 2013\Projects\WebDL\WebDL\obj\Debug\WebDL.Form1.resources
+c:\users\kevin\documents\visual studio 2013\Projects\WebDL\WebDL\obj\Debug\WebDL.Properties.Resources.resources
+c:\users\kevin\documents\visual studio 2013\Projects\WebDL\WebDL\obj\Debug\WebDL.csproj.GenerateResource.Cache
+c:\users\kevin\documents\visual studio 2013\Projects\WebDL\WebDL\obj\Debug\WebDL.exe
+c:\users\kevin\documents\visual studio 2013\Projects\WebDL\WebDL\obj\Debug\WebDL.pdb
+c:\users\kevin\documents\visual studio 2013\Projects\WebDL\WebDL\obj\Debug\WebDL.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\WebDL\WebDL\obj\Debug\WebDL.Form2.resources
