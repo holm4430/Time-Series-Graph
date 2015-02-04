@@ -1,7 +1,7 @@
 ﻿/*Name: Kevin Holmes
  * Description: Basic program to download time series data from Yahoo Finance and plot in a graph
- * Version 1.0
- * Date: January 24, 2015
+ * Version 1.1
+ * Date: February 3, 2015
  */
 
 
@@ -124,6 +124,7 @@ namespace WebDL
         {
             DateTime[] arrdate = new System.DateTime[dgData.RowCount];
             double[] arrclose = new double[dgData.RowCount];
+            double[] arrvol = new double[dgData.RowCount];
             long i = 0;
 
             if (dgData.Rows.Count == 0)
@@ -139,10 +140,11 @@ namespace WebDL
                 {
                     arrdate[i] = DateTime.Parse(row.Cells[0].Value.ToString());
                     arrclose[i] = double.Parse(row.Cells[6].Value.ToString());
+                    arrvol[i] = double.Parse(row.Cells[5].Value.ToString())/1000000.0;
                 }
                 i = i + 1;
             }
-            Form2 frmwithgraph = new Form2(arrdate,arrclose,tbName.Text, lstDataType.GetItemText(lstDataType.SelectedItem) + " Time Series Data");
+            Form2 frmwithgraph = new Form2(arrdate,arrclose,arrvol,tbName.Text, lstDataType.GetItemText(lstDataType.SelectedItem) + " Time Series Data");
             frmwithgraph.Show();
             }
 
